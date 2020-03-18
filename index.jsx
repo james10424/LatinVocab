@@ -1,5 +1,5 @@
 var all_units = {
-    u1: {
+    "u1": {
         "walk":
             "ambulo, ambulare, ambulavi, ambulatus",
         "water":
@@ -76,9 +76,9 @@ var all_units = {
             "via, -ae, F",
         "see":
             "video, videre, vidi, visus",
-    }
-    ,
-    u2: {
+    },
+
+    "u2": {
         "away from, by":
             "a, ab",
         "to, toward + acc":
@@ -171,9 +171,9 @@ var all_units = {
             "venio, venire, veni, ventus",
         "life":
             "vita, -ae, F",
-    }
-    ,
-    u3: {
+    },
+
+    "u3": {
         "bitter, harsh":
             "acerbus, -a, -um",
         "field":
@@ -256,9 +256,9 @@ var all_units = {
             "verbum, -i, N",
         "man":
             "vir, viri, M"
-    }
-    ,
-    u4: {
+    },
+
+    "u4": {
         "eternal":
             "aeternus, -a, -um",
         "do, drive, discuss, spend time, conduct":
@@ -278,7 +278,7 @@ var all_units = {
         "around prep + acc":
             "circum",
         "destroy":
-            "c2, deleo, delere, delevi, deletus",
+            "deleo, delere, delevi, deletus",
         "god, diety":
             "deus, -i, M",
         "goddess":
@@ -341,15 +341,15 @@ var all_units = {
             "vere",
         "contry house, farmhouse":
             "villa, -ae, F"
-    }
-    ,
-    u5: {
+    },
+
+    "u5": {
         "before, in front of + acc, previously adv":
             "ante",
         "ancient":
             "antiquus, -a, -um",
         "burn, be on fire, desire":
-            "c2, ardeo, ardere, arsi, arsus",
+            "ardeo, ardere, arsi, arsus",
         "arms, weapons":
             "arma, -orum, N",
         "gold":
@@ -361,15 +361,15 @@ var all_units = {
         "well":
             "bene",
         "sing":
-            "c3, cano, canere, cecini, cantus",
+            "cano, canere, cecini, cantus",
         "yield":
-            "c3, cedo, cedere, cessi, cessus",
+            "cedo, cedere, cessi, cessus",
         "approach":
-            "c3, accedo, accedere, accessi, accessus",
+            "accedo, accedere, accessi, accessus",
         "depart, leave":
-            "c3, discedo, discere, discessi, descessus",
+            "discedo, discere, discessi, descessus",
         "owe, ought":
-            "c2, debeo, debere, debui, debitus",
+            "debeo, debere, debui, debitus",
         "master, lord":
             "dominus, -i, M",
         "hard, harsh":
@@ -381,25 +381,25 @@ var all_units = {
         "authority, power, empire":
             "imperium, -i, N",
         "give order":
-            "c1, impero, imperare, imperavi, imperatus",
+            "impero, imperare, imperavi, imperatus",
         "kill":
-            "c3, interficio, interficere, interfeci, interfectus",
+            "interficio, interficere, interfeci, interfectus",
         "go into, invade, attack":
-            "c3, invado, invadere, invasi, invasus",
+            "invado, invadere, invasi, invasus",
         "superior, director, master, teacher":
             "magister, magistri, M",
         "middle of, middle":
             "medius, -a, -um",
         "move":
-            "c2, moveo, movere, movi, motus",
+            "moveo, movere, movi, motus",
         "remove, take away, set aside":
-            "c2, removeo, removere, removi, remotus",
+            "removeo, removere, removi, remotus",
         "soon":
             "mox",
         "learn, know 1":
-            "c3, nosco, noscere, novi, notus",
+            "nosco, noscere, novi, notus",
         "learn, know 2":
-            "c3, cognosco, cognoscere, cognovi, cognitus",
+            "cognosco, cognoscere, cognovi, cognitus",
         "new, strange":
             "novus, -a, -um",
         "never":
@@ -423,7 +423,7 @@ var all_units = {
         "fall, downfall, ruin, destruction":
             "ruina, -ae, F",
         "fall, go to ruin, rush":
-            "c3, ruo, ruere, rui, rutus",
+            "ruo, ruere, rui, rutus",
         "without + abl":
             "sine",
         "allied":
@@ -433,12 +433,12 @@ var all_units = {
         "nevertheless":
             "tamen",
         "be alive, live":
-            "c3, vivo, vivere, vixi, victus",
+            "vivo, vivere, vixi, victus",
         "call":
-            "c1, voco, vocare, vocavi, vocatus"
-    }
-    ,
-    u6: {
+            "voco, vocare, vocavi, vocatus"
+    },
+
+    "u6": {
         "animal":
             "animal, -alis, -ium, N",
         "Athens":
@@ -448,11 +448,11 @@ var all_units = {
         "dawn":
             "aurora, -ae, F",
         "lack, be without":
-            "c2, careo, carere, carui, caritus",
+            "careo, carere, carui, caritus",
         "body":
             "corpus, corporis, N",
         "say, tell, speak":
-            "c3, dico, dicere, dixi, dictus",
+            "dico, dicere, dixi, dictus",
         "for a long time":
             "diu",
         "house, home":
@@ -474,7 +474,7 @@ var all_units = {
         "Jupiter":
             "Iuppiter, Iovis, M",
         "free":
-            "c1, libero, liberare, liberavi, liberatus",
+            "libero, liberare, liberavi, liberatus",
         "light":
             "lumen, luminis, N",
         "sea":
@@ -494,11 +494,11 @@ var all_units = {
         "night":
             "nox, noctis, -ium, F",
         "attack, fight against":
-            "c1, oppugno, oppugnare, oppugnavi, oppugnatus",
+            "oppugno, oppugnare, oppugnavi, oppugnatus",
         "father":
             "pater, patris, M",
         "rule":
-            "c3, rego, regere, rexi, rectus",
+            "rego, regere, rexi, rectus",
         "king":
             "rex, regis, M",
         "Rome":
@@ -510,7 +510,7 @@ var all_units = {
         "sound, healthy, sane":
             "sanus, -a, -um",
         "know":
-            "c4, scio, scire, scivi, scitus",
+            "scio, scire, scivi, scitus",
         "slavery":
             "servitus, servitutis, F",
         "constellation, star, heaven":
@@ -518,7 +518,7 @@ var all_units = {
         "sister":
             "soror, -oris, F",
         "scatter, sprinkle, distribute":
-            "c3, spargo, spargere, sparsi, sparsus",
+            "spargo, spargere, sparsi, sparsus",
         "fear, dread":
             "timor, timoris, M",
         "city":
@@ -527,11 +527,11 @@ var all_units = {
             "vigor, -oris, M",
         "force, power, strength":
             "vis, vires, virium, F"
-    }
-    ,
-    u7: {
+    },
+
+    "u7": {
         "to love":
-            "c1, amo, amare, amavi, amatus",
+            "amo, amare, amavi, amatus",
         "love":
             "amor, amoris, M",
         "year":
@@ -543,25 +543,19 @@ var all_units = {
         "citizen":
             "civis, civis, -ium, MF",
         "complete":
-            "c3, conficio, conficere, confeci, confectus",
+            "conficio, conficere, confeci, confectus",
         "I":
             "ego, mei",
         "end, boundary, limit":
             "finis, finis, -ium, M",
         "descent, origin, race, sort":
             "genus, generis, N",
-        "this, the latter":
-            "hic, haec, hoc",
         "hour, season":
             "hora, -ae, F",
         "enemy, public enemy":
             "hostis, hostis, -ium, M",
-        "that, the former":
-            "ille, illa, illud",
         "come upon, discover, find":
-            "c4, invenio, invenire, inveni, inventus",
-        "this, that, he, she, it":
-            "is, ea, id",
+            "invenio, invenire, inveni, inventus",
         "place, spot":
             "locus, -i, M",
         "my, mine, my own":
@@ -577,15 +571,15 @@ var all_units = {
         "there is need of":
             "opus est",
         "accomplish, complete, finish":
-            "c3, perficio, perficere, perfeci, perfectus",
+            "perficio, perficere, perfeci, perfectus",
         "foot":
             "pes, pedis, M",
         "be pleasing to, to please":
-            "c2, placeo, placere, placui, placitus",
+            "placeo, placere, placui, placitus",
         "press, press open, press hard":
-            "c3, premo, premere, pressi, pressus",
+            "premo, premere, pressi, pressus",
         "press upon, overwhelm, supress, oppress":
-            "c3, opprimo, opprimere, oppressi, oppressus",
+            "opprimo, opprimere, oppressi, oppressus",
         "who, which, that (relative | interrogative)":
             "qui, quae, quod",
         "five":
@@ -597,7 +591,7 @@ var all_units = {
         "say hello ,greet":
             "salutem dicere",
         "hope for":
-            "c1, spero, sperare, speravi, speratus",
+            "spero, sperare, speravi, speratus",
         "himself, herself, itself, themselves (reflexive)":
             "--, sui",
         "his own, her own, its own, their own":
@@ -611,10 +605,76 @@ var all_units = {
         "your, yours, your own plural":
             "vester, vestra, vestrum",
         "voice":
-            "vox, vocis, F"
+            "vox, vocis, F",
+
+        "this, the latter Nom Singular M,F,N":
+            "hic, haec, hoc",
+        "this, the latter Gen Singular M,F,N":
+            "huius, huius, huius",
+        "this, the latter Dat Singular M,F,N":
+            "huic, huic, huic",
+        "this, the latter Acc Singular M,F,N":
+            "hunc, hanc, hoc",
+        "this, the latter Abl Singular M,F,N":
+            "hoc, hac, hoc",
+
+        "this, the latter Nom Plural M,F,N":
+            "hi, hae, haec",
+        "this, the latter Gen Plural M,F,N":
+            "horum, harum, horum",
+        "this, the latter Dat Plural M,F,N":
+            "his, his, his",
+        "this, the latter Acc Plural M,F,N":
+            "hos, has, haec",
+        "this, the latter Abl Plural M,F,N":
+            "his, his, his",
+
+        "that, the former Nom Singular M,F,N":
+            "ille, illa, illud",
+        "that, the former Gen Singular M,F,N":
+            "illius, illius, illius",
+        "that, the former Dat Singular M,F,N":
+            "illi, illi, illi",
+        "that, the former Acc Singular M,F,N":
+            "illum, illam, illud",
+        "that, the former Abl Singular M,F,N":
+            "illo, illa, illo",
+
+        "that, the former Nom Plural M,F,N":
+            "illi, illae, illa",
+        "that, the former Gen Plural M,F,N":
+            "illorum, illarum, illorum",
+        "that, the former Dat Plural M,F,N":
+            "illis, illis, illis",
+        "that, the former Acc Plural M,F,N":
+            "illos, illas, illa",
+        "that, the former Abl Plural M,F,N":
+            "illis, illis, illis",
+
+        "this, that, (he, she, it) (unemphatic) Nom Singular M,F,N":
+            "is, ea, id",
+        "this, that, (he, she, it) (unemphatic) Gen Singular M,F,N":
+            "eius, eius, eius",
+        "this, that, (he, she, it) (unemphatic) Dat Singular M,F,N":
+            "ei, ei, ei",
+        "this, that, (he, she, it) (unemphatic) Acc Singular M,F,N":
+            "eum, eam, id",
+        "this, that, (he, she, it) (unemphatic) Abl Singular M,F,N":
+            "eo, ea, eo",
+        
+        "this, that, (he, she, it) (unemphatic) Nom Plural M,F,N":
+            "ei|ii, eae, ea",
+        "this, that, (he, she, it) (unemphatic) Gen Plural M,F,N":
+            "eorum, earum, eorum",
+        "this, that, (he, she, it) (unemphatic) Dat Plural M,F,N":
+            "eis|iis, eis|iis, eis|iis",
+        "this, that, (he, she, it) (unemphatic) Acc Plural M,F,N":
+            "eos, eas, ea",
+        "this, that, (he, she, it) (unemphatic) Abl Plural M,F,N":
+            "eis|iis, eis|iis, eis|iis",
     },
 
-    u8: {
+    "u8": {
         "sharp, keen, fierce":
             "acer, acris, acre",
         "song, poem, incantation":
@@ -648,15 +708,15 @@ var all_units = {
         "heavy, severe, important":
             "gravis, -e",
         "throw":
-            "c3, iacio, iacere, ieci, iactus",
+            "iacio, iacere, ieci, iactus",
         "throw, scatter, shake, boast":
-            "c1, iacto, iactere, iactavi, iactatus",
+            "iacto, iactere, iactavi, iactatus",
         "huge":
             "ingens, ingentis",
         "wrath, anger":
             "ira, -ae, F",
         "order, command + inf":
-            "c2, iubeo, iubere, iussi, iussus",
+            "iubeo, iubere, iussi, iussus",
         "freedom":
             "libertas, libertatis, F",
         "shore, beach":
@@ -698,7 +758,7 @@ var all_units = {
         "public":
             "publicus, -a, -um",
         "look for, search for, seek, ask":
-            "c3, quaero, quaerere, quaesivi, quaesitus",
+            "quaero, quaerere, quaesivi, quaesitus",
         "thing, matter, affair, situation":
             "res, rei, F",
         "state, republic":
@@ -719,7 +779,7 @@ var all_units = {
             "vertex, verticis, M"
     },
 
-    u13: {
+    "u13": {
         "admiration":
             "admiratio, -onis, F",
         "young, youthful":
@@ -800,13 +860,13 @@ var all_units = {
             "vix"
     },
 
-    u14: {
+    "u14": {
         "fall upon; happen, occur":
             "accido, -ere, -cidi",
         "so, so much, so far":
             "adeo",
         "come to, arrive":
-            "advenio, -ire, -veni, ventus",
+            "advenio, -ire, -veni, -ventus",
         "mind, rational spirit, soul":
             "animus, -i, M",
         "authority":
@@ -887,7 +947,106 @@ var all_units = {
             "veritas, -tatis, F",
         "conquer, beat, overcome":
             "vinco, -ere, vici, victus"
-    }
+    },
+
+    "u15": {
+        "by away, be absent":
+            "absum, abesse, afui, afuturus",
+        "absent (adj)":
+            "absens, absentis",
+        "be present":
+            "adsum, adesse, adfui",
+        "disturb, stir up":
+            "agito, -are, -avi, -atus",
+        "before (a...)":
+            "antequam",
+        "appear, come in sight, be apparent":
+            "appareo, -ere, -ui, -itus",
+        "disaster, calamity":
+            "calamitas, -tatis, F",
+        "against, facing; opposite, in opposition, in turn + acc":
+            "contra",
+        "cum (conj)":
+            "when, since, although",
+        "stop, cease":
+            "desino, -ere, desii",
+        "while, until, as long as":
+            "donec",
+        "while, until, as long as, if only, provided that":
+            "dum",
+        "if only, provided that (d...)":
+            "dummodo",
+        "although, even if + ind":
+            "etsi",
+        "small":
+            "exiguus, -a, -um",
+        "wait for, expect":
+            "exspecto, -are, -avi, -atus",
+        "future inf of sum equivalent":
+            "fore",
+        "chance":
+            "fors, fortis, -ium, F",
+        "lightning, flash, brightness":
+            "fulgor, -oris, M",
+        "pleasing + dat":
+            "gratus, -a, -um",
+        "therefore":
+            "igitur",
+        "nature, talent, disposition, natural quality":
+            "ingenium, -i, N",
+        "hostility":
+            "inimicitia, -ae, F",
+        "sometimes":
+            "interdum",
+        "judge, jury":
+            "iudex, iudicis, M",
+        "trial, judgment, dicision":
+            "iudicium, -i, N",
+        "memory":
+            "memoria, -ae, F",
+        "mix, intermingle, blend":
+            "misceo, -ere, -ui, mixtus",
+        "if only, provided that (m...)":
+            "modo",
+        "nowhere":
+            "nusquam",
+        "nurse":
+            "nutrix, nutricis, F",
+        "fall, set, die":
+            "occido, -ere, -cidi, -casus",
+        "all in all, as a whole, entirely":
+            "omnino",
+        "die, perish":
+            "pereo, -ire, -ii, -itus",
+        "before (p...)":
+            "priusquam",
+        "be useful, do good, benefit, profit + dat":
+            "prosum, prodesse, profui",
+        "think":
+            "puto, -are, -avi, -atus",
+        "although + sub":
+            "quamvis",
+        "as if, as it were":
+            "quasi",
+        "indeed":
+            "quidem",
+        "not even":
+            "ne ... quidem",
+        "as long as, as far as, until":
+            "quoad",
+        "since + ind":
+            "quoniam",
+        "return, go back":
+            "redeo, -ire, -ii, -itus",
+        "as soon as + ind":
+            "simul ac",
+        "sleep, dream":
+            "somnus, -i, M",
+        "be left over, survive":
+            "supersum, -esse, -fui",
+        "when":
+            "ubi"
+    },    
 }
 
 class Vocab extends React.Component {
@@ -918,6 +1077,19 @@ class Vocab extends React.Component {
         this.change_ans = (e) => {
             this.setState({ans: e.target.value});
         }
+        // this.print_error = (correct, s) => {
+        //     _correct = correct.split().join("").split(",");
+        //     _s = s.split().join("").split(",");
+        //     if (_s.length < _correct.length) {
+        //         let tmp = [];
+        //         for (let i = 0; i < _correct.length - _s.length; i++) {
+        //             tmp.push("");
+        //         }
+        //         _s.push(...tmp);
+        //     } // pad
+        //     let sol = [];
+        //     let hint = [];
+        // };
         this.check_ans = () => {
             if (!this.state.cur) {
                 this.setState({entries: [<div>Looks like you have finished with the words, click <button onClick={() => this.set_unit(this.state.units)}>here</button> to refresh</div>, ...this.state.entries], ans: ""});
@@ -925,26 +1097,28 @@ class Vocab extends React.Component {
             }
             var sol = this.state.words[this.state.cur];
             var ans = this.state.ans;
+            var result;
             if (ans == sol) {
-                ans += "; Correct";
+                result = <span style={{backgroundColor: "green"}}>Correct</span>;
                 delete this.state.words[this.state.cur];
             }
             else {
-                ans += "; Wrong: " + sol;
+                result = <span><span style={{backgroundColor: "red"}}>Wrong:</span> {sol}</span>;
             }
             ans = "You entered: " + ans;
+            
             var next = this.next_word(this.state.words);
             this.setState({entries: [
             <div>
                 <div>{this.state.cur}</div>
-                <div>{ans}</div>
+                <div>{ans} {result}</div>
                 <br/>
             </div>, ...this.state.entries], cur: next, ans: ""});
         };
         this.next_word = (words) => {
             var w = Object.keys(words);
             return w[Math.floor(Math.random() * w.length)];
-        }
+        };
     }
 
     componentDidMount() {
@@ -964,6 +1138,7 @@ class Vocab extends React.Component {
             <br/>
             <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" value={this.state.ans} onKeyPress={e => e.key == "Enter" && this.check_ans()} onChange={this.change_ans}/>
             <input type="button" value="submit" onClick={this.check_ans} />
+            <br/>
             <div>
                 {this.state.entries}
             </div>
@@ -972,4 +1147,4 @@ class Vocab extends React.Component {
     }
 }
 
-ReactDOM.render(<Vocab units={["u14"]} />, document.getElementById("root"));
+ReactDOM.render(<Vocab units={["u15"]} />, document.getElementById("root"));
