@@ -1128,7 +1128,7 @@ class Vocab extends React.Component {
     render() {
         return (
         <div>
-            <div style={{float: "right"}}> Checkout the sorce code for this website: <a target="_blank" href="https://github.com/james10424/LatinVocab">https://github.com/james10424/LatinVocab</a> </div>
+            <div style={{right: "0", position: "absolute", bottom: "0", padding: "1vh"}}> Checkout the sorce code for this website: <a target="_blank" href="https://github.com/james10424/LatinVocab">https://github.com/james10424/LatinVocab</a> </div>
             Select units here, the progress will reset everytime you checked. Please enter the exact form, with space and comma.
             <div>{this.state.checkbox}</div>
             <br/>
